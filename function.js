@@ -18,14 +18,14 @@
 // let y = num(12, 112)
 // console.log(x,y)
 
-function num() {
-    let a = 10
-    let b = 15;
-    return a + b;
-}
-let x = num();
-let y = num();
-console.log(x,y)
+// function num() {
+//     let a = 10
+//     let b = 15;
+//     return a + b;
+// }
+// let x = num();
+// let y = num();
+// console.log(x,y)
 
 
 
@@ -208,7 +208,7 @@ console.log(x,y)
 // console.log(num===num1);
 
 // if (2 == "2") {
-//    console.log("yes")     
+//    console.log("yes")
 // }
 
 // if (2 === "2") {
@@ -217,9 +217,87 @@ console.log(x,y)
 
 
 
+function addTwoNumber(a, b) {
+    let num = a + b
+    console.log(num)
+    return num
+}
+// addTwoNumber(10,20)
 
 
 
+function loginUser(username) {
+    return `${username} just loggin in `
+}
+// console.log(loginUser("vinay singh"))
+
+
+function calculation(...num) {
+    return num
+}
+// console.log(calculation(10,20,30))
+
+
+// function objectss 
+const user = {
+    username: "vinay singh",
+    price : 399
+}
+function handelObject(anyobject) {
+    console.log(` username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handelObject(user)
+// handelObject({
+//     username: "raj",
+//     price: 999
+// })
+
+// function array
+
+const array = [1, 2, 3, 4, 5, 6, 7]
+function returnArray(getArray) {
+    return getArray[3]
+}
+// console.log(returnArray(array));
+
+
+//  nested Array function
+
+// function one() {
+//     const username = "vinay"
+//     function two() {
+//         const website = "youtube"
+//         console.log(username)
+//     }
+//     // console.log(website)
+//     two()
+// }
+// one()
+
+// ++++++++++++++++== this functionn used
+
+const user1 = {
+    username: "vinay",
+    price: 699,
+    welcome: function () {
+        console.log(`${this.username}  welcome to website`);
+}
+}
+
+// user1.welcome()
+// user1.username = "Amit"
+// user1.welcome()
+
+const str = {
+    username :"Krishna",
+    price: 99990,
+    welcome: function () {
+        console.log(`${this.username}  welcome to my shope. this phone price is ${this.price}`)
+    }
+}
+str.welcome()
+str.username = "radheshyam"
+str.welcome()
 
 
 

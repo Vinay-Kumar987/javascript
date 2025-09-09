@@ -78,6 +78,7 @@ console.log(arr1)
 // }
 
 
+
 // +++++++++++++++++++ forEach ()  forEach() method हर एक item पर एक function को एक बार चलाता है (Array, Set, या Map में).
 
 
@@ -255,4 +256,28 @@ values()	            Returns an iterator object of the values in
 // ])
 
 // console.log(c.size)
+
+
+// const arr = new Map([
+//     ["name", "Adarsh"],
+//     ["Age", 9],
+//     ["school", "NGCS"]
+// ])
+//  let arr1 = arr.delete("name")
+// console.log(arr1)
+// console.log(arr)
+
+
+// ==========================/
+
+const arr = new Map([
+    ["name", "adarsh"],
+    ["Age", 6],
+    ["Email", "vinay.de94@gmail.com"]
+]);
+arr.forEach((value, key)=>{
+    console.log(key,value)
+})
+
+
 
