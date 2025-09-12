@@ -1,4 +1,4 @@
-// let age =  prompt("what is your age")
+// let age =  Number(prompt("what is your age"))
 // if (age >= 18) {
 //     console.log("you can vote")
 // } else {
@@ -14,30 +14,80 @@
 // }
 // console.log(age)
 
+// ++++++++++++++++++++++
+// let age = prompt("what is your age")
+// // let age = 12;
+// if (age >= 18) {
+//     console.log("you can vote")
+// } else {
+//     console.log("you cant vote")
+// }
+// console.log(age)
 
+
+
+// const age = Number(prompt("What is your age? "));
+// let text;
+// if (age >= 18) {
+//     console.log("You can vote");
+// } else {
+//     console.log("You can't vote");
+// }
+// alert(text)
+
+// let ageStr = prompt("How old are you?");
+// let age = Number(ageStr);
+// let feedback = age >= 16 ? "You're eligible to join." : "You must be at least 16 years old to join.";
+// alert(feedback);
 
 // ++++++++++++++++++++=shop discount ++++++++++++++++++
 
 // Amount                      Discount
 
 // 0 --  5000                    0%
-// 5001 -- 7000                   5%
+// 5001 -- 7000                   5%S
 // 7001 --9000                    10%
 // more than 9000                 20%
 
 
-// let amount = Number (prompt("Enter the amount"))
+// let amount = Number(prompt("Enter the amount"))
+// const amount = 9000;
 // if (amount > 0 && amount <= 5000) {
 //     console.log(amount)
 // } else if (amount > 5000 && amount <= 7000) {
 //     console.log(amount - Math.floor((5 * amount) / 100));
-// } else if (amount > 7000 && amount <= 9000) {
+// } else if (amount > 7000 && amount < 9000) {
 //     console.log(amount - Math.floor((10 * amount) / 100));
-// } else if (amount > 9000) {
+// } else if (amount >= 9000) {
 //     console.log(amount - Math.floor((20 * amount) / 100));
 // } else {
 //     console.log(" you have not initial value")
 // }
+
+
+
+// let amount = 2000;
+// if (amount >= 2000) {
+//     console.log(amount - Math.floor((10 * amount) / 100));
+// }
+// let amount = 9000
+// if (amount >= 9000) {
+//     console.log(amount-Math.floor((20*amount)/100))
+// }
+
+
+let amount =76;
+if (amount > 0 && amount < 39) {
+    console.log(amount - Math.floor((0 * amount) / 100))
+} else if (amount >= 40 && amount <= 60) {
+    console.log(amount - Math.floor((6 * amount) / 100))
+} else if (amount >= 61 && amount <= 70) {
+    console.log(amount - Math.floor((8 * amount) / 100))
+}else if (amount >= 71 && amount <= 80) {
+    console.log(amount - Math.floor((10 * amount) / 100))
+}else if (amount >= 81 && amount <= 100) {
+    console.log(amount - Math.floor((100 * amount) / 100))
+}
 
 
 //++++++++++++++++++++++ Second method++++++++++++
