@@ -29,7 +29,11 @@
 //     }
 // }
 // or
-
+for (let i = 1; i<= 100; i++){
+    if (i % 2 !== 0) {
+        console.log("Odd number",i)
+    }
+}
 
 // for (let i = 2; i <= 20; i += 2){
 //     console.log(i)
@@ -167,10 +171,10 @@
 
 
 
-exports.hello=function hello() {
+// exports.hello=function hello() {
     
 
-    console.log("hello vinay");
+//     console.log("hello vinay");
 
 
-}
+// }
